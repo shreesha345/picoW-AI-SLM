@@ -2,6 +2,8 @@
 
 This document describes the circuit design and pin mapping for the Pico W TinyLlama Chatbot project.
 
+![Circuit Diagram](circuit_diagram.jpg)
+
 ---
 
 ## 🔌 Pin Connections Table

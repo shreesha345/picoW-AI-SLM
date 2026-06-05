@@ -20,6 +20,8 @@ This repository contains the source code, training scripts, and setup guides to 
 
 Connect your **SSD1306 128x32 OLED Display** to the **Raspberry Pi Pico W** as follows:
 
+![Circuit Diagram](circuit_diagram.jpg)
+
 | SSD1306 Pin | Pico W GPIO Pin | Notes |
 | :--- | :--- | :--- |
 | **GND** | GND (Pin 38 / Any GND) | Ground reference |
