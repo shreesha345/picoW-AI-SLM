@@ -1,0 +1,9 @@
+build
+!.vscode/*
+__pycache__/
+*.elf
+*.bin
+*.uf2
+*.hex
+*.dis
+*.map
