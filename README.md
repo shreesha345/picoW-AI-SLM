@@ -90,12 +90,22 @@ This runs the iterative learning loops, validates model behaviors, and exports `
 
 ## 💬 Interacting with the Chatbot
 
-Open a serial monitor (such as PuTTY or the Arduino Serial Monitor) at the standard baud rate to start chatting:
+You can interact with the Pico W CLI directly from your host terminal using our custom interactive client script:
+
+```powershell
+python pico_terminal.py
+```
+
+This script auto-detects your Pico W COM port, opens the connection, and forwards character inputs in real-time (similar to PuTTY).
+
+### Alternative: Using PuTTY or Arduino Serial Monitor
+Alternatively, you can open any external serial monitor at **115200 baudrate** to start chatting:
+
 ```
 --- Pico Llama CLI ---
 1. Run Generate Mode (Storytelling)
 2. Run Chat Mode (Interactive dialog)
-3. Configure hyperparameters (temp=1.00, top-p=0.90, steps=128)
+3. Configure hyperparameters (temp=1.00, top-p=0.90, steps=256)
 Choose option (1-3): 2
 
 Starting Chat Session. Press Enter on an empty line to exit.
